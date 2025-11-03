@@ -1,60 +1,72 @@
-📊 Netflix Content Strategy Analysis
-🔍 Project Overview
+# 🎬 Netflix Content Strategy Analysis
 
-This project analyzes Netflix content data to uncover insights about viewing patterns, content types, and global reach. Using data visualization and predictive modeling, it identifies factors influencing viewership and helps guide data-driven content strategy decisions.
+## 🔍 Project Overview
+This project analyzes Netflix’s content dataset to uncover insights about **viewership patterns**, **content types**, and **global reach**.  
+Using **Python** and data science libraries, it explores what drives audience engagement and builds a **predictive model** to estimate viewing hours based on key features.
 
-🎯 Objectives
+---
 
-Understand which content types (Movies or Shows) attract more viewers.
+## 🎯 Objectives
+- Analyze trends between **Movies** and **Shows** based on viewership.  
+- Evaluate how **global availability** impacts audience reach.  
+- Identify patterns by **language** and **release year**.  
+- Build a **machine learning model** to predict viewership hours.
 
-Explore the impact of global availability on viewership.
+---
 
-Identify trends based on language and release year.
+## 📊 Key Insights
+- 📈 Shows tend to receive **higher average viewership** than movies.  
+- 🌍 Content **available globally** performs significantly better.  
+- 🗓️ **Newer releases** generally attract more viewers.  
+- 🗣️ Language diversity contributes to platform engagement.
 
-Build a predictive model to estimate viewing hours based on content features.
+---
 
-🧠 Key Insights
+## 🧰 Skills & Tools Used
+**Python**, **Pandas**, **NumPy**, **Matplotlib**, **Seaborn**, **Scikit-learn**,  
+**Data Cleaning**, **Data Visualization**, **Exploratory Data Analysis (EDA)**,  
+**Feature Engineering**, **Machine Learning**, **Linear Regression**, **One-Hot Encoding**,  
+**Pipeline Building**, **Model Evaluation**, **Predictive Modeling**
 
-Shows generally receive higher viewership than movies.
+---
 
-Globally available content performs significantly better.
+## ⚙️ Project Workflow
+1. **Data Loading & Cleaning** – Imported dataset, handled missing values, standardized column names.  
+2. **Exploratory Data Analysis (EDA)** – Visualized patterns using Seaborn and Matplotlib.  
+3. **Feature Engineering** – Extracted year from release dates and encoded categorical data.  
+4. **Predictive Modeling** – Built regression models using Scikit-learn Pipelines.  
+5. **Model Evaluation** – Measured performance and analyzed feature importance.
 
-Release year and language have notable influence on viewership trends.
+---
 
-🧰 Skills & Tools Used
+## 📈 Results
+- Model highlighted **content type** and **global availability** as strong predictors of hours viewed.  
+- Insights support **strategic decision-making** for Netflix content acquisition and marketing.  
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Data Cleaning, Data Visualization, Exploratory Data Analysis (EDA), Feature Engineering, Machine Learning, Linear Regression, One-Hot Encoding, Pipeline Building, Model Evaluation, Predictive Modeling
+---
 
-⚙️ Workflow
+## 🚀 Future Enhancements
+- Add **genre and text-based analysis** using NLP.  
+- Create a **Streamlit dashboard** for interactive exploration.  
+- Integrate **external sources** (IMDb ratings, social trends) to enrich insights.  
 
-Data Loading & Cleaning – Loaded the dataset, handled missing values, and standardized column names.
+---
 
-Exploratory Data Analysis – Visualized distributions and patterns in content type, availability, and hours viewed.
+## 📂 Project Files
+| File Name | Description |
+|------------|-------------|
+| `Netflix_content_strategy_analysis.ipynb` | Jupyter Notebook with full code & analysis |
+| `netflix_titles.csv` | Dataset used for analysis |
+| `README.md` | Project documentation |
 
-Feature Engineering – Extracted release year and encoded categorical variables.
+---
 
-Predictive Modeling – Built and trained a regression model using Scikit-learn pipelines.
+## 🧾 Project Summary
+Analyzed Netflix data to uncover viewing trends and build a regression model predicting hours viewed, combining **data analysis**, **visualization**, and **machine learning** techniques for actionable business insights.
 
-Model Evaluation – Evaluated model performance and interpreted key feature importances.
+---
 
-📈 Results
+## 👩‍💻 Author
+**Anjali Pandey**  
+📧 [Connect on LinkedIn](https://www.linkedin.com/in/anjalipandey023)
 
-The model highlighted content type and global availability as top predictors of viewership.
-
-Data-driven insights can support Netflix’s content acquisition and marketing strategies.
-
-🚀 Future Improvements
-
-Add genre and synopsis-based text analysis using NLP.
-
-Build an interactive Streamlit dashboard.
-
-Integrate external datasets like IMDb ratings or social media trends.
-
-📂 Files Included
-
-Netflix_content_strategy_analysis.ipynb – Main analysis notebook
-
-netflix_titles.csv – Source dataset
-
-README.md – Project overview
